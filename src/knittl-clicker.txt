@@ -23,7 +23,7 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 curl
 		on click:if (have powerLifter and chance(1%)) yield 1 deadlift
-		icon:https://raw.githubusercontent.com/nigogo/knittl-clicker/main/img/background.png
+		icon:https://raw.githubusercontent.com/nigogo/knittl-clicker/main/img/keyboard-curl.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
