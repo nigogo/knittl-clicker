@@ -22,7 +22,7 @@ Buttons
 		desc:Click here to do a keyboard curl
 		on click:anim icon wobble
 		on click:yield 1 curl
-		on click:if (have goldenTouch and chance(1%)) yield 1 deadlift
+		on click:if (have powerLifter and chance(1%)) yield 1 deadlift
 		icon:https://raw.githubusercontent.com/nigogo/knittl-clicker/main/img/background.png
 		no text
 		class:bigButton hasFlares
@@ -44,3 +44,16 @@ Resources
         icon:icons[0,1]
         class:noBackground
         hidden when 0
+
+Upgrades
+	*TEMPLATE
+		on click:anim glow
+
+	//dead lift upgrades
+
+	*powerLifter
+		name:Power lifter
+		desc:Whuuaaarrrr!!!1<//><b>Effect:</b><.>1% chance of gaining 1 keyboard dead lift per keyboard curl
+		icon:icons[2,5]
+		cost:1 deadlift
+		req:1 deadlift:earned
