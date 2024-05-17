@@ -19,7 +19,7 @@ Layout
 Buttons
 	*keyboardCurlButton
 		name:Do a keyboard curl!
-		desc:Click here to do a keyboard curl
+		desc:No pain, no gain!
 		on click:anim icon wobble
 		on click:yield 1 curl
 		on click:if (have powerLifter and chance(1%)) yield 1 deadlift
@@ -84,6 +84,8 @@ Buildings
 Upgrades
 	*TEMPLATE
 		on click:anim glow
+
+	///building upgrades
 
 	//dead lift upgrades
 
