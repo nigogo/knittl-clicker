@@ -21,8 +21,8 @@ Buttons
 		name:Do a keyboard curl!
 		desc:Click here to do a keyboard curl
 		on click:anim icon wobble
-		on click:yield 1 keyboard-curl
-		on click:if (have goldenTouch and chance(1%)) yield 1 keyboard-dead-lift
+		on click:yield 1 curl
+		on click:if (have goldenTouch and chance(1%)) yield 1 deadlift
 		icon:https://raw.githubusercontent.com/nigogo/knittl-clicker/main/img/background.png
 		no text
 		class:bigButton hasFlares
@@ -31,15 +31,15 @@ Buttons
 		tooltip class:red
 
 Resources
-    *keyboard-curl|keyboard-curls
+    *curl|curls
         name:Keyboard Curl|Keyboard Curls
         desc:These are your keyboard curls, use them to achieve life goals, the goal is to do all of them!
         icon:icons[0,0]
         class:noBackground
         show earned
 
-    *keyboard-dead-lift|keyboard-dead-lifts
-        name:Keyboard dead lift|Keyboard dead lifts
+    *deadlift|deadlifts
+        name:Keyboard Dead Lift|Keyboard Dead Lifts
         desc:These rare keyboard dead lifts will greatly increase your power
         icon:icons[0,1]
         class:noBackground
