@@ -60,15 +60,15 @@ Buildings
     *coder|coders
         name:Coder|Coders
         desc:A beginner coder.<//><b>Effect:</b><.>Produces 1 keyboard curl every 2 seconds.
-        icon:icons[2,0]
+        icon:icons[1,1]
         cost:100 curls
         on tick:yield 0.5 curl
         req:100 curls:earned
 
     *linuxUserGroup|linuxUserGroup
-        name:Weight Trainer|Weight Trainers
+        name:Linux User Group|Linux User Groups
         desc:A group of like-minded individuals.<//><b>Effect:</b><.>Produces 5 keyboard curls per second.
-        icon:icons[1,1]
+        icon:icons[1,2]
         cost:600 curls
         on tick:yield 5 curl
         req:600 curls:earned
@@ -76,7 +76,7 @@ Buildings
     *fitnessRoom|fitnessRoom
         name:Fitness Room|Fitness Rooms
         desc:A weightlifting environment that gets you pumped up<//><b>Effect:</b><.>Produces 12 keyboard curls per second.
-        icon:icons[1,2]
+        icon:icons[1,3]
         cost:4000 curls
         on tick:yield 12 curls
         req:4000 curls:earned
