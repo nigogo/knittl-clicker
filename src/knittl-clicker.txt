@@ -95,23 +95,23 @@ Upgrades
 	*beardOil
 		name:Beard Oil
 		desc:Keeps your beard healthy and shiny.<//><b>Effect:</b><.>Increases curl production by 10%
-		icon:icons[2,1]
+		icon:icons[2,0]
 		cost:500 curls
 
 	*mechanicalKeyboard
 		name:Mechanical Keyboard
 		desc:Clicky and satisfying.<//><b>Effect:</b><.>Increases curl production by 20%
-		icon:icons[2,2]
+		icon:icons[2,1]
 		cost:1200 curls
 
 	*linuxLaptop
 		name:Linux Laptop
 		desc:A powerful tool for coding and more.<//><b>Effect:</b><.>Increases curl production by 30%
-		icon:icons[2,3]
+		icon:icons[2,2]
 		cost:2000 curls
 
 	*bassGuitar
 		name:Bass Guitar
 		desc:Feel the rhythm.<//><b>Effect:</b><.>Increases curl production by 15%
-		icon:icons[2,4]
+		icon:icons[2,3]
 		cost:800 curls
