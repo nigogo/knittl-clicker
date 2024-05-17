@@ -1,0 +1,46 @@
+Let's make a game!
+	name:Knittl Clicker
+	by:Nico
+	desc:This is a Knittl life simulation that will allow you to raise your power level over 9000 and transcend space and time!<//>Do keyboard curls and become 100x
+    created: 17/5/2024
+    updated: 17/5/2024
+    version: 1
+
+Settings
+	background:https://raw.githubusercontent.com/nigogo/knittl-clicker/main/img/background.png
+	building cost increase:115%
+	building cost refund:50%
+	spritesheet:icons, 48 by 48, https://raw.githubusercontent.com/nigogo/knittl-clicker/main/img/keyboard-curl.png
+	stylesheet:stuff/bigBlue.css
+
+Layout
+	use default
+
+Buttons
+	*keyboardCurlButton
+		name:Do a keyboard curl!
+		desc:Click here to do a keyboard curl
+		on click:anim icon wobble
+		on click:yield 1 keyboard-curl
+		on click:if (have goldenTouch and chance(1%)) yield 1 keyboard-dead-lift
+		icon:https://raw.githubusercontent.com/nigogo/knittl-clicker/main/img/background.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
+
+Resources
+    *keyboard-curl|keyboard-curls
+        name:Keyboard Curl|Keyboard Curls
+        desc:These are your keyboard curls, use them to achieve life goals, the goal is to do all of them!
+        icon:icons[0,0]
+        class:noBackground
+        show earned
+
+    *keyboard-dead-lift|keyboard-dead-lifts
+        name:Keyboard dead lift|Keyboard dead lifts
+        desc:These rare keyboard dead lifts will greatly increase your power
+        icon:icons[0,1]
+        class:noBackground
+        hidden when 0
