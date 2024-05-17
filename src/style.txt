@@ -73,6 +73,7 @@
 
 #box-buildings {
     right: 50%;
+    width: 70%;
 }
 
 #box-buildings {
@@ -81,6 +82,7 @@
 
 #box-upgrades {
     background: rgba(0, 0, 0, 0.3);
+    width: 30%;
 }
 
 #bulkDisplay {
@@ -182,5 +184,9 @@
 .thing-icon {
     width: 64px;
     height:64px;
+}
+
+.thing {
+
 }
 
