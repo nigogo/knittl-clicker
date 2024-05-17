@@ -47,7 +47,7 @@ Resources
 
 Buildings
     *TEMPLATE
-        on click: anim glow
+        on click:anim glow
 
     *gymBro|gymBros
         name: Gym Bro|Gym Bros
