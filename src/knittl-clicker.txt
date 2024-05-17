@@ -10,7 +10,7 @@ Settings
 	background:https://raw.githubusercontent.com/nigogo/knittl-clicker/main/img/background.png
 	building cost increase:115%
 	building cost refund:50%
-	spritesheet:icons, 48 by 48, https://raw.githubusercontent.com/nigogo/knittl-clicker/main/img/keyboard-curl-icon.png
+	spritesheet:icons, 48 by 48, https://raw.githubusercontent.com/nigogo/knittl-clicker/main/img/spritesheet.png
 	stylesheet:stuff/bigBlue.css
 
 Layout
@@ -50,36 +50,36 @@ Buildings
         on click:anim glow
 
     *gymBro|gymBros
-        name: Gym Bro|Gym Bros
-        desc: A friend to lift with.<//><b>Effect:</b><.>Produces 1 keyboard curl every 10 seconds.
-        icon: icons[1,0]
-        cost: 15 curls
-        on tick: yield 0.1 curl
+        name:Gym Bro|Gym Bros
+        desc:A friend to lift with.<//><b>Effect:</b><.>Produces 1 keyboard curl every 10 seconds.
+        icon:icons[1,0]
+        cost:15 curls
+        on tick:yield 0.1 curl
         unlocked
 
     *coder|coders
-        name: Coder|Coders
-        desc: A beginner coder.<//><b>Effect:</b><.>Produces 1 keyboard curl every 2 seconds.
-        icon: icons[2,0]
-        cost: 100 curls
-        on tick: yield 0.5 curl
-        req: 100 curls:earned
+        name:Coder|Coders
+        desc:A beginner coder.<//><b>Effect:</b><.>Produces 1 keyboard curl every 2 seconds.
+        icon:icons[2,0]
+        cost:100 curls
+        on tick:yield 0.5 curl
+        req:100 curls:earned
 
     *linuxUserGroup|linuxUserGroup
-        name: Weight Trainer|Weight Trainers
-        desc: A group of like-minded individuals.<//><b>Effect:</b><.>Produces 5 keyboard curls per second.
-        icon: icons[1,1]
-        cost: 600 curls
-        on tick: yield 5 curl
-        req: 600 curls:earned
+        name:Weight Trainer|Weight Trainers
+        desc:A group of like-minded individuals.<//><b>Effect:</b><.>Produces 5 keyboard curls per second.
+        icon:icons[1,1]
+        cost:600 curls
+        on tick:yield 5 curl
+        req:600 curls:earned
 
     *fitnessRoom|fitnessRoom
-        name: Fitness Room|Fitness Rooms
-        desc: A weightlifting environment that gets you pumped up<//><b>Effect:</b><.>Produces 12 keyboard curls per second.
-        icon: icons[1,2]
-        cost: 4000 curls
-        on tick: yield 12 curls
-        req: 4000 curls:earned
+        name:Fitness Room|Fitness Rooms
+        desc:A weightlifting environment that gets you pumped up<//><b>Effect:</b><.>Produces 12 keyboard curls per second.
+        icon:icons[1,2]
+        cost:4000 curls
+        on tick:yield 12 curls
+        req:4000 curls:earned
 
 Upgrades
 	*TEMPLATE
