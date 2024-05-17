@@ -11,7 +11,7 @@ Settings
 	building cost increase:115%
 	building cost refund:50%
 	spritesheet:icons, 64 by 64, https://raw.githubusercontent.com/nigogo/knittl-clicker/main/img/spritesheet.png
-	stylesheet:https://raw.githubusercontent.com/nigogo/knittl-clicker/main/src/style.css
+	stylesheet:https://raw.githubusercontent.com/nigogo/knittl-clicker/main/src/style.txt
 
 Layout
 	use default
