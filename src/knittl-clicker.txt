@@ -95,7 +95,7 @@ Upgrades
     *fingerStrength
         name:Finger Strength
         desc:Use two fingers for double the pleasure.
-        icon:icons[2,4]
+        icon:icons[2,5]
         cost:100 curls
         passive:increase curl yield of keyboardCurlButton by 1
         req:10 curls:earned
@@ -103,7 +103,7 @@ Upgrades
     *epicBeard
         name:Epic Beard
         desc:Epic beard, epic life!<//><b>Effect:</b>Increases your coder's and gym bro's curl production by 50%
-        icon:icons[2,5]
+        icon:icons[2,4]
         cost:1000 curls
         passive:multiply curl yield of gymBro by 1.5
         passive:multiply curl yield of coder by 1.5
