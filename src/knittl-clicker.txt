@@ -149,3 +149,73 @@ Upgrades
 		cost:20000 curls
         passive:multiply curl yield of linuxUserGroup by 1.5
         req:50000 curls:earned
+
+Achievements
+	*TEMPLATE
+		on click:anim glow
+
+    *curlAchiev1
+        name:Your first keyboard curl.
+        desc:Bro!
+        req:1 curl
+        icon:[2,0]
+
+    *curlAchiev2
+        name:Your getting fit!
+        desc:Keep going man
+        req:100 curl
+        icon:[2,1]
+
+    *curlAchiev3
+        name:Getting toned!
+        desc:Push, push, push.
+        req:1000 curl
+        icon:[2,1]
+
+    *curlAchiev4
+        name:Ripped AF!
+        desc:You are getting some now.
+        req:5000 curl
+        icon:[2,1]
+
+    *curlAchiev5
+        name:Damn son, nice abs!
+        desc:The work pays off.
+        req:20000 curl
+        icon:[2,2]
+
+    *curlAchiev6
+        name:Unhuman form!
+        desc:Your bros are jelly.
+        req:50000 curl
+        icon:[2,2]
+
+    *buildingAchiev1
+        name:Bro accquired
+        desc:Have <b>1</b> gym bro.
+        req:1 gymBro
+        icon:icons[2,0]
+
+    *buildingAchiev2
+        name:Code away
+        desc:Have <b>1</b> coder.
+        req:1 coder
+        icon:icons[2,0]
+
+    *buildingAchiev3
+        name:Kernel development
+        desc:Have <b>1</b> linux user group.
+        req:1 gymBro
+        icon:icons[2,1]
+
+    *buildingAchiev4
+        name:Lift all day, code all night
+        desc:Have <b>1</b> fitness room.
+        req:1 fitnessRoom
+        icon:icons[2,2]
+
+    *winAchiev
+        name:You have transcended!
+        desc:Welcome to the 1000x life bro!
+        req:1 uberKnittl
+        icon:[1,4]
