@@ -205,7 +205,7 @@ Achievements
     *buildingAchiev3
         name:Kernel development
         desc:Have <b>1</b> linux user group.
-        req:1 gymBro
+        req:1 linuxUserGroup
         icon:icons[3,1]
 
     *buildingAchiev4
