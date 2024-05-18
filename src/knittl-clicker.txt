@@ -161,7 +161,7 @@ Achievements
         icon:icons[3,0]
 
     *curlAchiev2
-        name:Your getting fit!
+        name:You're getting fit!
         desc:Keep going man
         req:100 curl
         icon:icons[3,1]
