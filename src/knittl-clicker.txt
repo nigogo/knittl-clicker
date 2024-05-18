@@ -1,6 +1,6 @@
 Let's make a game!
 	name:Knittl Clicker
-	by:Nico
+	by:Nico & Manu
 	desc:This is a Knittl life simulation that will allow you to raise your power level over 9000 and transcend space and time!<//>Do keyboard curls and become 100x
     created: 17/5/2024
     updated: 17/5/2024
@@ -88,30 +88,56 @@ Upgrades
 	*powerLifter
 		name:Power lifter
 		desc:Whuuaaarrrr!!!1<//><b>Effect:</b><.>1% chance of gaining 1 keyboard dead lift per keyboard curl
-		icon:icons[2,5]
+		icon:icons[0,1]
 		cost:1 deadlift
 		req:1 deadlift:earned
 
+    *fingerStrength
+        name:Finger Strength
+        desc:Use two fingers for double the pleasure.
+        icon:icons[2,4]
+        cost:100 curls
+        passive:increase curl yield of keyboardCurlButton by 1
+        req:10 curls:earned
+
+    *epicBeard
+        name:Epic Beard
+        desc:Epic beard, epic life!<//><b>Effect:</b>Increases your coder's and gym bro's curl production by 50%
+        icon:icons[2,5]
+        cost:1000 curls
+        passive:multiply curl yield of gymBro by 1.5
+        passive:multiply curl yield of coder by 1.5
+        req:(gymBros>=10 or coders >=10)
+
+    *mechanicalKeyboard
+        name:Mechanical Keyboard
+        desc:Clicky and satisfying.<//><b>Effect:</b><.>Increases curl production 5x
+        icon:icons[2,1]
+        cost:1200 curls
+        passive:increase curl yield of keyboardCurlButton by 5
+        req:5000 curls:earned
+
 	*beardOil
 		name:Beard Oil
-		desc:Keeps your beard healthy and shiny.<//><b>Effect:</b><.>Increases curl production by 10%
+		desc:Keeps your beard healthy and shiny.<//><b>Effect:</b><.>Increases curl production 3x
 		icon:icons[2,0]
-		cost:500 curls
-
-	*mechanicalKeyboard
-		name:Mechanical Keyboard
-		desc:Clicky and satisfying.<//><b>Effect:</b><.>Increases curl production by 20%
-		icon:icons[2,1]
-		cost:1200 curls
-
-	*linuxLaptop
-		name:Linux Laptop
-		desc:A powerful tool for coding and more.<//><b>Effect:</b><.>Increases curl production by 30%
-		icon:icons[2,2]
 		cost:2000 curls
+        passive:multiply curl yield of gymBro by 3
+        passive:multiply curl yield of coder by 3
+        req:10000 curls:earned
 
 	*bassGuitar
 		name:Bass Guitar
-		desc:Feel the rhythm.<//><b>Effect:</b><.>Increases curl production by 15%
+		desc:Feel the rhythm, train your fingers.<//><b>Effect:</b><.>Increases curl production by 10x
 		icon:icons[2,3]
-		cost:800 curls
+		cost:5000 curls
+        passive:increase curl yield of keyboardCurlButton by 10
+        req:20000 curls:earned
+
+	*linuxLaptop
+		name:Linux Laptop
+		desc:A powerful tool for coding and more.<//><b>Effect:</b><.>Increases curl production of linux user groups by 50%
+		icon:icons[2,2]
+		cost:20000 curls
+        passive:multiply curl yield of linuxUserGroup by 1.5
+        req:50000 curls:earned
