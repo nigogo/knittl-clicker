@@ -73,7 +73,7 @@ Buildings
         on tick:yield 5 curl
         req:600 curls:earned
 
-    *fitnessRoom|fitnessRoom
+    *fitnessRoom|fitnessRooms
         name:Fitness Room|Fitness Rooms
         desc:A weightlifting environment that gets you pumped up<//><b>Effect:</b><.>Produces 12 keyboard curls per second.
         icon:icons[1,3]
