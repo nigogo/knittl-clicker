@@ -84,7 +84,7 @@ Buildings
     *uberKnittl
         name:Uber Knittl|Uber Knittls
         desc:Transcend space and time, become the 1000x man you know you are!<//><b>Effect:</b><.>Produces 1000 keyboard curls per second.
-        icon:icons[1,6]
+        icon:icons[1,4]
         cost:500000 curls
         on tick:yield 1000 curls
         req:80000 curls:earned
