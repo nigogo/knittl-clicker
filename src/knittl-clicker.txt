@@ -150,7 +150,7 @@ Upgrades
         passive:multiply curl yield of linuxUserGroup by 1.5
         req:50000 curls:earned
 
-	*linuxLaptop
+	*bierkoenig
 		name:Der Bierkönig
 		desc:Stylish workouts and lectures.<//><b>Effect:</b><.>Increases curl production of linux user groups and fitness rooms by 2x
 		icon:icons[2,6]
